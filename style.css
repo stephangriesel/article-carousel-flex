@@ -137,3 +137,17 @@ footer {
     width:100px;
     height:100px;
 }
+
+.carousel-wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.carousel-thumbs {
+    display:flex;
+    justify-content: space-evenly;
+}
+

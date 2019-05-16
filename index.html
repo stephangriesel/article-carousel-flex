@@ -115,20 +115,22 @@
         <img name="slide" alt="image">
     </div> -->
 
-    <div>
-        <img id="mainImage" class="carousel" src="./image-1.jpg" />
-    <div>
-        <div>
-        <div id="divId" onclick="changeImageOnClick(event)">
-            <img class="img-thumbs" src="./image-2.jpg" />
-            <img class="img-thumbs" src="./image-3.png" />
-            <img class="img-thumbs" src="./image-4.jpg" />
+    <div class="carousel-wrapper">
+        <div class="carousel-wrapper">
+            <img id="mainImage" class="carousel" src="./image-1.jpg" />
+            <div>
+                <div class="carousel-thumbs">
+                    <div id="divId" onclick="changeImageOnClick(event)">
+                        <img class="img-thumbs" src="./image-2.jpg" />
+                        <img class="img-thumbs" src="./image-3.png" />
+                        <img class="img-thumbs" src="./image-4.jpg" />
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    </div>
 
 
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
